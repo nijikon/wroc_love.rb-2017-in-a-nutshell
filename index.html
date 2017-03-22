@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>wroc_love.rb 2017 in a nutshell</title>
+
+    <meta name="description" content="wroc_love.rb 2017 in a nutshell">
+    <meta name="author" content="Tomasz Pajor">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css" id="theme">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+	<section>
+	  <img src="img/wrocloverb.png" alt="" style="border: none; box-shadow: 0 0 0 0 #fff; width: 30%"/>
+	  <h3>wroc_love.rb 2017 in a nutshell</h3>
+	</section>
+
+	<section>
+	  <h4>A bit about me</h4>
+
+	  <ul>
+	    <li>I &lt;3 ruby, devops and whiskey</li>
+	    <li>all in for open-source software</li>
+	    <li>quality and automation are very important</li>
+	    <li>i don't have a blog</li>
+	    <li>i do consulting</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <img src="img/amicus.png" alt="" style="border: 0; box-shadow: none;" />
+	</section>
+
+	<section>
+	  <img src="img/coditsu_page.svg" alt="" style="border: 0; box-shadow: none; width: 60%;" />
+          <p>comprehensive platform for insightful code analysis</p>
+	</section>
+
+	<section>
+	  <img src="img/homebrew.png" alt="" style="border: 0; box-shadow: none;" />
+	</section>
+
+	<section>
+	  <img src="img/wroclove_hall.jpg" alt="" style="border: 0; box-shadow: none;" />
+
+	  <ul>
+	    <li>March 17-19th 2017, Wrocław Poland</li>
+	    <li>10 speakers, 10 talks, 2 panels</li>
+	    <li>after parties ;)</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h2>when I was preparing this talk</h2>
+	</section>
+
+	<section>
+	  <h2>I realized that I don't like doing this kind of talks</h2>
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-maciej-mensfeld.jpg" alt="" style="border: 0; box-shadow: none;" />
+	  <h4>KARAFKA - PLACE WHERE RUBY, RAILS AND KAFKA MEET TOGETHER</h4>
+          <h5>Maciej Mensfeld</h5>
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-maciej-mensfeld2.jpg" alt="" style="border: 0; box-shadow: none;" />
+	</section>
+
+        <section>
+	  <ul>
+	    <li>kafka - is used for building real-time data pipelines and streaming apps</li>
+	    <li>karafka - microframework which was designed to simplify Kafka based applications development</li>
+	  </ul>
+        </section>
+
+        <section>
+	  <ul>
+            <li>https://kafka.apache.org/</li>
+            <li>https://github.com/zendesk/ruby-kafka</li>
+            <li>https://github.com/karafka/karafka</li>
+	  </ul>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-mariusz-gil.jpg" alt="" style="border: 0; box-shadow: none;" />
+	  <h4>MACHINE LEARNING FOR THE RESCUE</h4>
+          <h5>Mariusz Gil</h5>
+	</section>
+
+        <section>
+          <h2>Machine learning is not a single run of an algorithm. It's a process.</h2>
+        </section>
+
+        <section>
+          <h2>ML process</h2>
+
+	  <ul>
+            <li>define a problem</li>
+            <li>gather your data</li>
+            <li>understand your data</li>
+            <li>prepare data for ml</li>
+            <li>select &amp; run algo(s)</li>
+            <li>tune algo(s) parameters</li>
+            <li>select final model</li>
+            <li>validate final model</li>
+	  </ul>
+        </section>
+
+        <section>
+          <h2>list of ruby gems for ML/DS http://gems.sciruby.com</h2>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-mariusz-gil2.jpg" alt="" style="border: 0; box-shadow: none; width: 50%;" />
+	</section>
+
+        <section>
+          <img src="img/spree_logo.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 50%"/>
+          <h3>3.2 was released</h3>
+        </section>
+
+        <section>
+          <h2>Fun facts</h2>
+        </section>
+
+        <section>
+          <h3>A bit of numbers</h3>
+
+          <ul>
+            <li>3 026 876 bytes of code</li>
+            <li>0.63% monthly growth</li>
+            <li>104594 lines of code</li>
+            <li>75.9% code in Ruby</li>
+            <li>4 guys handling more than 92% of code (last month)</li>
+            <li>1 guy with > 50% of current code base (total) ownership - Sean Schofield</li>
+          </ul>
+        </section>
+
+        <section>
+          <img src="img/rubocop.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+          <h3>Spree uses Rubocop!</h3>
+        </section>
+
+        <section>
+          <img src="img/rubocop.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+          <h4>But it doesn't! :(</h4>
+
+          <p>
+            <small>
+            AccessorMethodName  ActionFilter   Alias   ArrayJoin   AsciiComments   AsciiIdentifiers   Attr   BlockNesting   CaseEquality   CharacterLiteral   ClassAndModuleChildren   ClassLength   ClassVars   ColonMethodCall   CommentAnnotation   CyclomaticComplexity   Delegate   DeprecatedHashMethods   Documentation   DoubleNegation   EachWithObject   EmptyLiteral   Encoding   EvenOdd   FileName   FlipFlop SpecialGlobalVars   StringLiterals   VariableInterpolation   TrailingCommaInLiteral
+            </small>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/rubocop.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+          <h4>But it doesn't! :(</h4>
+
+          <p>
+            <small>
+              FormatString   GlobalVars   GuardClause   IfUnlessModifier   IfWithSemicolon   InlineComment   Lambda   LambdaCall   LineEndConcatenation   MethodLength   ModuleFunction   NegatedIf   NegatedWhile   Next   NilComparison   Not   NumericLiterals   OneLineConditional   OpMethod   ParameterLists   PercentLiteralDelimiters   PerlBackrefs   Proc   RaiseArgs   RegexpLiteral   SelfAssignment SingleLineBlockParams   SingleLineMethods   SignalException
+            </small>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/rubocop.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+          <h4>But it doesn't! :(</h4>
+
+          <p>
+            <small>
+              TrailingCommaInArguments   TrivialAccessors   VariableInterpolation   WhenThen   WhileUntilModifier   WordArray   AmbiguousOperator   AmbiguousRegexpLiteral   AssignmentInCondition   ConditionPosition   DeprecatedClassMethods   ElseLayout   HandleExceptions   InvalidCharacterLiteral   LiteralInCondition   LiteralInInterpolation   Loop   ParenthesesAsGroupedExpression   RequireParentheses   UnderscorePrefixedVariableName   Void
+            </small>
+          </p>
+        </section>
+
+        <section>
+          <h3>So what would happen with a non-agressive Rubocop config?</h3>
+          <h4>(with Rubocop Rspec and Rubocop Rails)</h4>
+
+          <img src="img/rubocop_res.png" style="border: none; box-shadow: 0 0 0 0 #fff;"/>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-sebastian-sogamoso.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>THE OVERNIGHT FAILURE</h4>
+          <h5>Sebastian Sogamoso</h5>
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-sebastian-sogamoso2.jpg" alt="" style="border: 0; box-shadow: none; width: 80%;" />
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-sebastian-sogamoso3.jpg" alt="" style="border: 0; box-shadow: none; width: 50%;" />
+	</section>
+
+        <section>
+          <h2>Responsible Rails - Become the responsible Rails developer</h2>
+
+	  <ul>
+            <li>http://blog.arkency.com/responsible-rails/</li>
+            <li>for free with MAKE_RUBY_GREAT_AGAIN code</li>
+            <li>don't know if it's good, but it's for free ;)</li>
+	  </ul>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-hubert-lepicki.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>FAULT TOLERANCE IN RUBY</h4>
+          <h5>Hubert Łępicki</h5>
+	</section>
+
+        <section>
+	  <h2>Semian</h2>
+	  <h3>https://github.com/Shopify/semian</h3>
+
+	  <ul>
+	    <li>circuit breaker</li>
+	    <li>ready to use adapters (mysql, redis, net/http)</li>
+	    <li>fail fast philosophy</li>
+	    <li>works with Ruby / OS processes (but NOT threads)</li>
+	    <li>uses Unix IPC to synchronize</li>
+	    <li>modifies behaviors of third party libs<br>
+	    </li>
+	  </ul>
+        </section>
+
+	<section>
+	  <h2>Celluloid</h2>
+	  <h3>https://github.com/celluloid/celluloid</h3>
+
+	  <ul>
+	    <li>turns objects into actors</li>
+	    <li>allows linking actors</li>
+	    <li>allows supervision/restarts</li>
+	  </ul>
+        </section>
+
+	<section>
+	  <h2>Ruby 3.0.0 - Guilds</h2>
+          <p>http://www.atdot.net/~ko1/activities/2016_rubykaigi.pdf</p>
+        </section>
+
+        <section>
+          <p>http://slides.com/hubertlepicki/fault-tolerance-in-ruby</p>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-valentin-fondaratov.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>AUTOMATED TYPE CONTRACTS GENERATION FOR RUBY</h4>
+          <h5>Valentin Fondaratov</h5>
+	</section>
+
+        <section>
+          <h2>I'm sorry I don't remember what it was about</h2>
+        </section>
+
+        <section>
+          <h2>Fortunately there are slides</h2>
+        </section>
+
+        <section>
+          <p>https://speakerdeck.com/valich/automated-type-contracts-generation-for-ruby</p>
+        </section>
+
+	<section>
+	  <img src="img/ruby-vs-elixir-panel.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>RUBY vs ELIXIR</h4>
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-piotr-szmielew.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>BINDINGS IN RUBY - BEHIND THE MAGIC OF BLOCKS</h4>
+          <h5>Piotr Szmielew</h5>
+	</section>
+
+        <section>
+          <p>https://speakerdeck.com/esse/bindings-in-ruby-behind-the-magic-of-blocks</p>
+        </section>
+
+	<section>
+	  <ul>
+	    <li>RubyVM</li>
+	    <li>TracePoint</li>
+	  </ul>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-piotr-szmielew2.jpg" alt="" style="border: 0; box-shadow: none;" />
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-piotr-szmielew3.jpg" alt="" style="border: 0; box-shadow: none;" />
+	</section>
+
+        <section>
+          <p>http://charytatywni.allegro.pl/en/listing?sellerId=9300675</p>
+        </section>
+
+	<section>
+	  <img src="img/learn-new-languages.jpg" alt="" style="border: 0; box-shadow: none; width: 80%;" />
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-norbert-wojtowicz.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>THE BABEL FISH IS DATA: A CASE STUDY</h4>
+          <h5>Norbert Wójtowicz</h5>
+	</section>
+
+	<section>
+	  <h2>It was good so hopefully the video will be up shortly</h2>
+        </section>
+
+	<section>
+	  <h2>Clojure and ClojureScript</h2>
+        </section>
+
+	<section>
+	  <h2>You should take a look</h2>
+        </section>
+
+	<section>
+	  <h2>#clojure and #clojurescript stealing best ideas from other langs</h2>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-norbert-wojtowicz2.jpg" alt="" style="border: 0; box-shadow: none; width: 50%;" />
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-maciej-rzasa.png" alt="" style="border: 0; box-shadow: none;" />
+          <h4>WE ALL BUILD DISTRIBUTED SYSTEMS</h4>
+          <h5>Maciej Rząsa</h5>
+	</section>
+
+	<section>
+	  <p>https://speakerdeck.com/mrzasa/we-all-make-distributed-systems-wroc-love-dot-rb-2017</p>
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-wojciech-rzasa.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>PREDICTING PERFORMANCE CHANGES OF DISTRIBUTED APPLICATIONS</h4>
+          <h5>Wojciech Rząsa</h5>
+	</section>
+
+	<section>
+	  <img src="img/speakers/speaker-wojciech-rzasa2.gif" alt="" style="border: 0; box-shadow: none;" />
+        </section>
+
+	<section>
+	  <p>https://speakerdeck.com/wrzasa/predicting-performance-changes-of-distributed-applications</p>
+        </section>
+
+	<section>
+          <h4>PANEL - HOW TO SURVIVE IN THE JAVASCRIPT WORLD AS A RUBY PROGRAMMER AND STAY SANE</h4>
+	</section>
+
+	<section>
+	  <img src="img/panel-js-ruby.jpg" alt="" style="border: 0; box-shadow: none; width: 50%;" />
+        </section>
+
+	<section>
+	  <img src="img/kill-me-now.jpg" alt="" style="border: 0; box-shadow: none;" />
+        </section>
+
+	<section>
+	  <img src="img/speakers/speaker-petr-chalupa.jpg" alt="" style="border: 0; box-shadow: none;" />
+          <h4>CONCURRENTRUBY V1.1.0: NEW FRAMEWORK, NEW WAY OF WRITING CONCURRENT CODE!</h4>
+          <h5>Petr Chalupa</h5>
+	</section>
+
+	<section>
+	  <p>http://ruby-concurrency.github.io/concurrent-ruby/Concurrent/Promises.html</p>
+        </section>
+
+	<section>
+	  <img src="img/gsoc.jpg" alt="" style="border: 0; box-shadow: none;" />
+        </section>
+
+	<section>
+	  <p>Applications close April 3, 2017 at 18:00 (CEST)</p>
+        </section>
+
+	<section>
+	  <h1>THE END - Q &amp; A</h1>
+
+	  <ul style="text-align: center; list-style: none;">
+	    <li>github: <a href="https://github.com/nijikon">@nijikon</a></li>
+	    <li>twitter: <a href="http://twitter.com/tomaszpajor">@tomaszpajor</a></li>
+	    <li>e-mail: <a href="mailto:tomek@coditsu.io">tomek@coditsu.io</a></li>
+	    <li><a href="https://coditsu.io">coditsu.io</a></li>
+	  </ul>
+	</section>
+      </div>
+
+      <div class='logo'>
+	<img src="img/coditsu_page.svg" alt="" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  controls: true,
+  progress: true,
+  history: true,
+  center: true,
+
+  transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+  // More info https://github.com/hakimel/reveal.js#dependencies
+  dependencies: [
+    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'plugin/zoom-js/zoom.js', async: true },
+    { src: 'plugin/notes/notes.js', async: true }
+  ]
+});
+
+    </script>
+
+  </body>
+</html>
